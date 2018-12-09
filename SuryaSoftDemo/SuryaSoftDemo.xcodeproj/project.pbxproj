@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A72C525721BAB8D700C5A886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C525621BAB8D700C5A886 /* AppDelegate.swift */; };
+		A72C525921BAB8D700C5A886 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C525821BAB8D700C5A886 /* ViewController.swift */; };
+		A72C525C21BAB8D700C5A886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C525A21BAB8D700C5A886 /* Main.storyboard */; };
+		A72C525F21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A72C525D21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodeld */; };
+		A72C526121BAB8D800C5A886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72C526021BAB8D800C5A886 /* Assets.xcassets */; };
+		A72C526421BAB8D800C5A886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72C526221BAB8D800C5A886 /* LaunchScreen.storyboard */; };
+		A72C526E21BAC8F300C5A886 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C526D21BAC8F300C5A886 /* APIManager.swift */; };
+		A72C527021BAE23C00C5A886 /* Cachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72C526F21BAE23C00C5A886 /* Cachable.swift */; };
+		A758A4F121BBA7DA005BAFC8 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A758A4F021BBA7DA005BAFC8 /* CoreDataStack.swift */; };
+		A758A51821BD0290005BAFC8 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A758A51721BD0290005BAFC8 /* ActivityView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A72C525321BAB8D700C5A886 /* SuryaSoftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuryaSoftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72C525621BAB8D700C5A886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A72C525821BAB8D700C5A886 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A72C525B21BAB8D700C5A886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A72C525E21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SuryaSoftDemo.xcdatamodel; sourceTree = "<group>"; };
+		A72C526021BAB8D800C5A886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A72C526321BAB8D800C5A886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A72C526521BAB8D800C5A886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A72C526D21BAC8F300C5A886 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A72C526F21BAE23C00C5A886 /* Cachable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cachable.swift; sourceTree = "<group>"; };
+		A758A4F021BBA7DA005BAFC8 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		A758A51721BD0290005BAFC8 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A72C525021BAB8D700C5A886 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A72C524A21BAB8D600C5A886 = {
+			isa = PBXGroup;
+			children = (
+				A72C525521BAB8D700C5A886 /* SuryaSoftDemo */,
+				A72C525421BAB8D700C5A886 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A72C525421BAB8D700C5A886 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A72C525321BAB8D700C5A886 /* SuryaSoftDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A72C525521BAB8D700C5A886 /* SuryaSoftDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A72C525621BAB8D700C5A886 /* AppDelegate.swift */,
+				A758A51A21BD0535005BAFC8 /* Controller */,
+				A72C525A21BAB8D700C5A886 /* Main.storyboard */,
+				A72C526021BAB8D800C5A886 /* Assets.xcassets */,
+				A72C526221BAB8D800C5A886 /* LaunchScreen.storyboard */,
+				A72C526521BAB8D800C5A886 /* Info.plist */,
+				A72C525D21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodeld */,
+				A758A51B21BD0568005BAFC8 /* Services */,
+				A758A51921BD051A005BAFC8 /* Model */,
+			);
+			path = SuryaSoftDemo;
+			sourceTree = "<group>";
+		};
+		A758A51921BD051A005BAFC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A758A4F021BBA7DA005BAFC8 /* CoreDataStack.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A758A51A21BD0535005BAFC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A72C525821BAB8D700C5A886 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A758A51B21BD0568005BAFC8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A72C526D21BAC8F300C5A886 /* APIManager.swift */,
+				A72C526F21BAE23C00C5A886 /* Cachable.swift */,
+				A758A51721BD0290005BAFC8 /* ActivityView.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A72C525221BAB8D700C5A886 /* SuryaSoftDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A72C526821BAB8D800C5A886 /* Build configuration list for PBXNativeTarget "SuryaSoftDemo" */;
+			buildPhases = (
+				A72C524F21BAB8D700C5A886 /* Sources */,
+				A72C525021BAB8D700C5A886 /* Frameworks */,
+				A72C525121BAB8D700C5A886 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuryaSoftDemo;
+			productName = SuryaSoftDemo;
+			productReference = A72C525321BAB8D700C5A886 /* SuryaSoftDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A72C524B21BAB8D600C5A886 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = SUBAHAN;
+				TargetAttributes = {
+					A72C525221BAB8D700C5A886 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A72C524E21BAB8D600C5A886 /* Build configuration list for PBXProject "SuryaSoftDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A72C524A21BAB8D600C5A886;
+			productRefGroup = A72C525421BAB8D700C5A886 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A72C525221BAB8D700C5A886 /* SuryaSoftDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A72C525121BAB8D700C5A886 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72C526421BAB8D800C5A886 /* LaunchScreen.storyboard in Resources */,
+				A72C526121BAB8D800C5A886 /* Assets.xcassets in Resources */,
+				A72C525C21BAB8D700C5A886 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A72C524F21BAB8D700C5A886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A758A4F121BBA7DA005BAFC8 /* CoreDataStack.swift in Sources */,
+				A72C527021BAE23C00C5A886 /* Cachable.swift in Sources */,
+				A72C525F21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodeld in Sources */,
+				A72C526E21BAC8F300C5A886 /* APIManager.swift in Sources */,
+				A758A51821BD0290005BAFC8 /* ActivityView.swift in Sources */,
+				A72C525921BAB8D700C5A886 /* ViewController.swift in Sources */,
+				A72C525721BAB8D700C5A886 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A72C525A21BAB8D700C5A886 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72C525B21BAB8D700C5A886 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A72C526221BAB8D800C5A886 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A72C526321BAB8D800C5A886 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A72C526621BAB8D800C5A886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A72C526721BAB8D800C5A886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A72C526921BAB8D800C5A886 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuryaSoftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subahan.SuryaSoftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A72C526A21BAB8D800C5A886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SuryaSoftDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = subahan.SuryaSoftDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A72C524E21BAB8D600C5A886 /* Build configuration list for PBXProject "SuryaSoftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72C526621BAB8D800C5A886 /* Debug */,
+				A72C526721BAB8D800C5A886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A72C526821BAB8D800C5A886 /* Build configuration list for PBXNativeTarget "SuryaSoftDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A72C526921BAB8D800C5A886 /* Debug */,
+				A72C526A21BAB8D800C5A886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A72C525D21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A72C525E21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodel */,
+			);
+			currentVersion = A72C525E21BAB8D700C5A886 /* SuryaSoftDemo.xcdatamodel */;
+			path = SuryaSoftDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A72C524B21BAB8D600C5A886 /* Project object */;
+}
